@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/classes_and_objects/circle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects/glass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects/point.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects/smartphone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects/vehicle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_and_objects/glass.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes_and_objects/glass.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.smartphone">
+  <component name="RunManager" selected="Python.glass">
     <configuration name="circle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,8 +171,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.smartphone" />
         <item itemvalue="Python.glass" />
+        <item itemvalue="Python.smartphone" />
         <item itemvalue="Python.circle" />
         <item itemvalue="Python.point" />
         <item itemvalue="Python.vehicle" />
