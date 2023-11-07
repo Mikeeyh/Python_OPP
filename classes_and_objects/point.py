@@ -6,7 +6,7 @@ class Point:
     def set_x(self, new_x):
         self.x = new_x
 
-    def set_y(self, new_y):
+    def set_y(self , new_y):
         self.y = new_y
 
     def __str__(self):
