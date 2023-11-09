@@ -5,25 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/guild_system/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/guild_system/project/guild.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/guild_system/project/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/library/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/library/project/library.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/library/project/registration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/library/project/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/spoopify/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/spoopify/project/album.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/spoopify/project/band.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/spoopify/project/song.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/to_do_list/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/to_do_list/project/section.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes_and_objects_exercices/to_do_list/project/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/food/project/food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/food/project/fruit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/hierarchical_inheritance/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/hierarchical_inheritance/project/animal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/hierarchical_inheritance/project/cat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/hierarchical_inheritance/project/dog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/hierarchical_inheritance/project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/multilevel_inheritance/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/multilevel_inheritance/project/car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/multilevel_inheritance/project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/multilevel_inheritance/project/sports_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/multilevel_inheritance/project/vehicle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/multiple_inheritance/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/multiple_inheritance/project/employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/multiple_inheritance/project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/multiple_inheritance/project/person.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/multiple_inheritance/project/teacher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/single_inheritance/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/single_inheritance/project/animal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/single_inheritance/project/dog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/single_inheritance/project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/stack_of_strings/project/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/food/project/fruit.py" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance/food/project/fruit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +68,8 @@
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\classes_and_objects_exercices\to_do_list\project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.example">
-    <configuration name="band" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main (4)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes_and_objects_exercices/spoopify/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance/single_inheritance/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes_and_objects_exercices/spoopify/project/band.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/single_inheritance/project/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes_and_objects_exercices/to_do_list/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance/multiple_inheritance/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes_and_objects_exercices/to_do_list/project/ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/multiple_inheritance/project/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance/multilevel_inheritance/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/multilevel_inheritance/project/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="library" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes_and_objects_exercices/library/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance/hierarchical_inheritance/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes_and_objects_exercices/library/project/library.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/hierarchical_inheritance/project/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="teacher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,11 +182,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes_and_objects_exercices/library/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance/multiple_inheritance/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes_and_objects_exercices/library/project/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/multiple_inheritance/project/teacher.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.example" />
-        <item itemvalue="Python.ex" />
-        <item itemvalue="Python.band" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.library" />
+        <item itemvalue="Python.main (4)" />
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.teacher" />
+        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
