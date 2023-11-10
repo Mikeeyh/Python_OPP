@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/inheritance_exercices/shop/project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance_exercices/shop/project/drink.py" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance_exercices/shop/project/drink.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance_exercices/shop/project/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance_exercices/shop/project/food.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance_exercices/shop/project/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance_exercices/shop/project/product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inheritance_exercices/shop/project/product_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance_exercices/shop/project/product_repository.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
