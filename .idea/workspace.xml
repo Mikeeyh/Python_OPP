@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/dough.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/pizza.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/topping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/topping.py" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/topping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
