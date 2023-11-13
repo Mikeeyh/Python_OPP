@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/topping.py" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/topping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/dough.py" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/dough.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/pizza.py" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/pizza.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +49,8 @@
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\classes_and_objects_exercices\to_do_list\project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
-    <configuration name="account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for main.Tests">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,32 +58,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/encapsulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/encapsulation/account.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_OOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/encapsulation_exercices/wild_cat_zoo/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/encapsulation_exercices/wild_cat_zoo/project/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,55 +113,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="topping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for main.Tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/topping.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;main.Tests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="zoo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for main.Tests.test_topping_topping_type_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/encapsulation_exercices/wild_cat_zoo/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/encapsulation_exercices/wild_cat_zoo/project/zoo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;main.Tests.test_topping_topping_type_error&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in main.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project/main.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for main.Tests" />
+        <item itemvalue="Python tests.Python tests for main.Tests.test_topping_topping_type_error" />
+        <item itemvalue="Python tests.Python tests in main.py" />
         <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.topping" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.zoo" />
-        <item itemvalue="Python.account" />
+        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
