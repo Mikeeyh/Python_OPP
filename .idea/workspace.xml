@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static_and_class_methods/calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_and_class_methods/ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycles.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/encapsulation_exercices/wild_cat_zoo/project/zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/encapsulation_exercices/wild_cat_zoo/project/zoo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_and_class_methods/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods/calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_and_class_methods/ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods/ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_and_class_methods/shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods/shop.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +49,7 @@
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\classes_and_objects_exercices\to_do_list\project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.calculator">
+  <component name="RunManager" selected="Python.shop">
     <configuration name="calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,27 +155,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for main.Tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="shop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/encapsulation_exercices/pizza_maker/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_and_class_methods" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;main.Tests&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static_and_class_methods/shop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.shop" />
         <item itemvalue="Python.calculator" />
         <item itemvalue="Python.ex" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python tests.Python tests for main.Tests" />
       </list>
     </recent_temporary>
   </component>
