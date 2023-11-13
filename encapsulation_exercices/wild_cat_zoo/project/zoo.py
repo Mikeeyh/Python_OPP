@@ -119,7 +119,7 @@ class Zoo:
         for element in category:
             elements[element.__class__.__name__].append(repr(element))
 
-        result = [f"You have {len(category)} {str(category[0].__class__.__base__.__name__).lower()}s"]
+        result = [f"You have {len(category)} {str(category[0].__class__.__bases__[0].__name__).lower()}s"]  # or only __base__
         for key, value in elements.items():
             result.append(f"----- {len(value)} {key}s:")
             result.extend(value)
