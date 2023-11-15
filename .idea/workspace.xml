@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/customer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/equipment.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/equipment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/exercise_plan.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/exercise_plan.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/gym.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/gym.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/subscription.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/subscription.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/trainer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -34,12 +34,20 @@ class Gym:
             self.subscriptions.append(subscription)
 
     def subscription_info(self, subscription_id: int):
-        for subscription in self.subscriptions:
-            if subscription.id == subscription_id:
-                customer = next((c for c in self.customers if c.id == subscription.customer_id), None)
-                trainer = next((t for t in self.trainers if t.id == subscription.trainer_id), None)
-                plan = next((p for p in self.plans if p.id == subscription.exercise_id), None)
+        subscription = next((s for s in self.subscriptions if s.id == subscription_id), None)
+        if subscription:
+            customer = next((c for c in self.customers if c.id == subscription.customer_id), None)
+            trainer = next((t for t in self.trainers if t.id == subscription.trainer_id), None)
+            plan = next((p for p in self.plans if p.id == subscription.exercise_id), None)
+            if plan:
                 equipment = next((e for e in self.equipment if e.id == plan.equipment_id), None)
 
-                if customer and trainer and plan and equipment:
-                    return f"{subscription}\n{customer}\n{trainer}\n{equipment}\n{plan}"
+                # return f"{subscription}\n{customer}\n{trainer}\n{equipment}\n{plan}"
+
+                return "\n".join([
+                    subscription.__repr__(),
+                    customer.__repr__(),
+                    trainer.__repr__(),
+                    equipment.__repr__(),
+                    plan.__repr__()
+                ])
