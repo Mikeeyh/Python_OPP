@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/movie_world/project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/ex.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/movie_world/project/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/movie_world/project/customer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/movie_world/project/dvd.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/movie_world/project/dvd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/movie_world/project/movie_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/movie_world/project/movie_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project/document.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project/document.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project/topic.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project/topic.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +52,8 @@
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\classes_and_objects_exercices\to_do_list\project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
-    <configuration name="ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test.TestDocumentManagement">
+    <configuration name="document" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_and_class_methods_exercices" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static_and_class_methods_exercices/ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project/document.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hotel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,53 +82,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_and_class_methods/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static_and_class_methods/project/hotel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_OOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_and_class_methods/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static_and_class_methods/project/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_OOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_and_class_methods_exercices/movie_world/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static_and_class_methods_exercices/movie_world/project/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,34 +116,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="photo_album" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestDocumentManagement" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_and_class_methods_exercices" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static_and_class_methods_exercices/photo_album.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestDocumentManagement&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.TestDocumentManagement.test_storage_delete_topic" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestDocumentManagement.test_storage_delete_topic&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/static_and_class_methods_exercices/document_management/project/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.photo_album" />
-        <item itemvalue="Python.ex" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.hotel" />
+        <item itemvalue="Python tests.Python tests for test.TestDocumentManagement" />
+        <item itemvalue="Python tests.Python tests for test.TestDocumentManagement.test_storage_delete_topic" />
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python tests.Python tests in test.py" />
+        <item itemvalue="Python.document" />
       </list>
     </recent_temporary>
   </component>
