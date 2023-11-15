@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dunder Methods" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polymorphism_and_abstraction/example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polymorphism_and_abstraction/example_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polymorphism_and_abstraction/image_area.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polymorphism_and_abstraction/playing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polymorphism_and_abstraction/robots.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polymorphism_and_abstraction/shapes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polymorphism_and_abstraction/playing.py" beforeDir="false" afterPath="$PROJECT_DIR$/polymorphism_and_abstraction/playing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polymorphism_and_abstraction/shapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/polymorphism_and_abstraction/shapes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
