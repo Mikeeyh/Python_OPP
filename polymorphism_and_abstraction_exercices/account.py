@@ -1,5 +1,5 @@
 class Account:
-    def __init__(self, owner: str, amount=0):
+    def __init__(self, owner: str, amount: int = 0):
         self.owner = owner
         self.amount = amount
         self._transactions = []
@@ -33,8 +33,8 @@ class Account:
     def __len__(self):
         return len(self._transactions)
 
-    def __iter__(self):
-        return iter(self._transactions)
+    # def __iter__(self):
+    #     return iter(self._transactions)
 
     def __getitem__(self, index):
         return self._transactions[index]

@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/polymorphism_and_abstraction_exercices/account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polymorphism_and_abstraction_exercices/formula_1_manager/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polymorphism_and_abstraction_exercices/formula_1_manager/project/f1_season_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polymorphism_and_abstraction_exercices/formula_1_manager/project/formula_teams/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polymorphism_and_abstraction_exercices/formula_1_manager/project/formula_teams/formula_team.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polymorphism_and_abstraction_exercices/formula_1_manager/project/formula_teams/mercedes_team.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polymorphism_and_abstraction_exercices/formula_1_manager/project/formula_teams/red_bull_team.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polymorphism_and_abstraction_exercices/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/polymorphism_and_abstraction_exercices/account.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
