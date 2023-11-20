@@ -1,9 +1,7 @@
-from abc import ABCMeta, abstractmethod
+from abc import ABC, abstractmethod
 
 
-class IEmail(object):
-    __metaclass__ = ABCMeta
-
+class IEmail(ABC):
     @abstractmethod
     def set_sender(self, sender):
         pass
@@ -57,9 +55,7 @@ print(email)
 """ Corrected Code """
 
 
-class IEmail(object):
-    __metaclass__ = ABCMeta
-
+class IEmail(ABC):
     @abstractmethod
     def set_sender(self, sender):
         pass
@@ -68,18 +64,26 @@ class IEmail(object):
     def set_receiver(self, receiver):
         pass
 
+
+class IContent(ABC):
+    def __init__(self, txt):
+        self.txt = txt
+
     @abstractmethod
-    def set_content(self, content):
+    def format(self):
         pass
 
 
+class MyContent(IContent):
+    def format(self):
+        return f"'<myML>'{self.txt}'</myML>'"
+
+
 class Email(IEmail):
-    def __init__(self, protocol, content_type):
+    def __init__(self, protocol):
         self.protocol = protocol
-        self.content_type = content_type
         self.__sender = None
         self.__receiver = None
-        self.__content = None
 
     def set_sender(self, sender):
         if self.protocol == 'IM':
@@ -94,10 +98,7 @@ class Email(IEmail):
             self.__receiver = receiver
 
     def set_content(self, content):
-        if self.content_type == 'MyML':
-            self.__content = '\n'.join(['<myML>', content, '</myML>'])
-        else:
-            self.__content = content
+            self.__content = content.format()
 
     def __repr__(self):
         template = "Sender: {sender}\nReceiver: {receiver}\nContent:\n{content}"
