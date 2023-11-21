@@ -5,3 +5,5 @@ def genrange(start, end):
 
 
 print(list(genrange(1, 10)))
+print(tuple(genrange(1, 10)))
+print(*(genrange(1, 10)), sep=', ')
