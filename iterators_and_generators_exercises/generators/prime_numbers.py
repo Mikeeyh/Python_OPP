@@ -1,9 +1,13 @@
-def get_prime(list_of_numbers: list):
-    prime_numbers = []
-    start_index = 0
+def get_primes(list_of_numbers: list):
+    for num in list_of_numbers:
+        if num < 2:
+            continue
+        for i in range(2, num):
+            if num % i == 0:
+                break
+        else:
+            yield num
 
-    while start_index < len(list_of_numbers):
-        yield start_index
-        if list_of_numbers[start_index] // 2:
-            prime_numbers.append(list_of_numbers[start_index])
-            start_index += 1
+
+print(list(get_primes([2, 4, 3, 5, 6, 9, 1, 0])))
+print(list(get_primes([-2, 0, 0, 1, 1, 0])))
