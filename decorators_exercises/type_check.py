@@ -1,11 +1,18 @@
 def type_check(expected_type):
     def decorator(func):
-        def wrapper(*args, **kwargs):
-            if all(isinstance(arg, expected_type) for arg in args):
-                return func(*args, **kwargs)
-            return "Bad Type"
+        def wrapper(given_type):
+            if not isinstance(given_type, expected_type):
+                return "Bad Type"
+            return func(given_type)
         return wrapper
     return decorator
+
+    #     def wrapper(*args):
+    #         if all(isinstance(arg, expected_type) for arg in args):
+    #             return func(*args)
+    #         return "Bad Type"
+    #     return wrapper
+    # return decorator
 
 
 @type_check(int)

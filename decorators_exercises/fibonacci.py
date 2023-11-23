@@ -2,14 +2,10 @@ def cache(func):
     log = {}
 
     def wrapper(n):
-        # Check if the result is already in the cache
-        if n not in log:
-            # If not, calculate and store the result
-            log[n] = func(n)
-        return log
-
-    # Attach the cache to the original function
-    func.log = log
+        if not wrapper.log.get(n):  # checks if the key 'n' is already in the dictionary
+            wrapper.log[n] = func(n)  # if not, we add it to the dictionary
+        return wrapper.log[n]  # then we return it
+    wrapper.log = {}  # in order to have access and print fibonacci.log
 
     return wrapper
 
