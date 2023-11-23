@@ -29,3 +29,43 @@ say_hi
 Saying Hi 
 """
 
+
+# if the decorator should accept some parameters we need 3 functions ---------------------------------------------------
+
+
+def uppercase(n_letters):
+    def decorator(function):
+        def wrapper():
+            result = function()
+            upper_part = result[:n_letters + 1].upper()
+            lower_part = result[n_letters:].lower()
+            return upper_part + lower_part
+        return wrapper
+    return decorator
+
+
+@uppercase(3)
+def say_hi():
+    return 'hello there'
+
+
+print(say_hi())  # HELLlo there
+
+# ----------------------------------------------------------------
+
+
+def repeat(n):
+    def decorator(function):
+        def wrapper(*args, **kwargs):
+            result = function(*args, **kwargs)
+            return result * n
+        return wrapper
+    return decorator
+
+
+@repeat(4)
+def say(word):
+    return word
+
+
+print(say("Hello"))  # HelloHelloHelloHello
