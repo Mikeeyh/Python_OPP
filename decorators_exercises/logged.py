@@ -4,6 +4,11 @@ def logged(function):
         return f"you called {function.__name__}({', '.join([str(el) for el in args])})\nit returned {result}"
     return wrapper
 
+    # def wrapper(*args):
+    #     result = function(*args)
+    #     return f"you called {function.__name__}{args}\nit returned {result}"
+    # return wrapper
+
 
 @logged
 def func(*args):
