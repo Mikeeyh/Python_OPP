@@ -1,29 +1,62 @@
 from abc import ABC, abstractmethod
+from math import log2
 
 
 class Computer(ABC):
-    def __init__(self, manufacturer: str, model: str, processor=None, ram=None, price=0):
+    def __init__(self, manufacturer: str, model: str):
         self.manufacturer = manufacturer
         self.model = model
-        self.processor = processor
-        self.ram = ram
-        self.price = price
-        self.type = ""
+        self.processor = None
+        self.ram = None
+        self.price = 0
 
-        if not self.manufacturer or not self.manufacturer.strip() or not self.model or not self.model.strip():
-            raise ValueError("Manufacturer name cannot be empty")
+    @property
+    @abstractmethod
+    def available_processors(self):
+        pass
+
+    @property
+    @abstractmethod
+    def max_ram(self):
+        pass
+
+    @property
+    def valid_ram(self):
+        return [2 ** i for i in range(1, int(log2(self.max_ram)) + 1)]  # we start from 1, 2^1 = 2 ->  2 GB ram minimum
+
+    @property
+    def manufacturer(self):
+        return self.__manufacturer
+
+    @manufacturer.setter
+    def manufacturer(self, value):
+        if value.strip() == '':
+            raise ValueError("Manufacturer name cannot be empty.")
+        self.__manufacturer = value
+
+    @property
+    def model(self):
+        return self.__model
+
+    @model.setter
+    def model(self, value):
+        if value.strip() == '':
+            raise ValueError("Model name cannot be empty.")
+        self.__model = value
 
     def configure_computer(self, processor: str, ram: int):
-        pass
+        if processor not in self.available_processors:
+            raise ValueError(f"{processor} is not compatible with {self.__str__()} {self.manufacturer} {self.model}!")
+        if ram not in self.valid_ram:
+            raise ValueError(f"{ram}GB RAM is not compatible with {self.__str__()} {self.manufacturer} {self.model}!")
+
+        processor_price = self.available_processors[processor]
+        ram_price = int(log2(ram) * 100)
+        self.processor = processor
+        self.ram = ram
+        self.price = processor_price + ram_price
+
+        return f"Created {self.__repr__()} for {self.price}$."
 
     def __repr__(self):
         return f"{self.manufacturer} {self.model} with {self.processor} and {self.ram}GB RAM"
-
-
-# c = Computer("Asus", "Notebook 14", "Ryzen 5", 16, 1750)
-# print(c.manufacturer)
-# print(c.model)
-# print(c.processor)
-# print(c.ram)
-# print(c.price)
-# print(c.__repr__())
