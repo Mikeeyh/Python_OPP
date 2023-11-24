@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/decorators_exercises/project/computer_types/desktop_computer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators_exercises/project/computer_store_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators_exercises/project/computer_store_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators_exercises/project/computer_types/computer.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators_exercises/project/computer_types/computer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators_exercises/project/computer_types/dekstop_computer.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators_exercises/project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators_exercises/project/computer_types/laptop.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators_exercises/project/computer_types/laptop.py" afterDir="false" />
-    </list>
+    <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
