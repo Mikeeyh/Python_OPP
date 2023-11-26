@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/testing/test_cat_ex2/cat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing/test_cat_ex2/test_cat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing/test_list_ex_3/integer_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing/test_list_ex_3/test_integer_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/car_manager_ex4/car_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/car_manager_ex4/test_car_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +53,28 @@
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\iterators_and_generators\iterators" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_integer_list.py">
+  <component name="RunManager" selected="Python tests.Python tests for test_car_manager.TestCarManager">
+    <configuration name="car_manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/car_manager_ex4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing/car_manager_ex4/car_manager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,83 +96,69 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_integer_list.TestIntegerList.test_get_biggest_expect_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_car_manager.TestCarManager" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/test_list_ex_3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/car_manager_ex4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_integer_list.TestIntegerList.test_get_biggest_expect_success&quot;" />
+      <option name="_new_target" value="&quot;test_car_manager.TestCarManager&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_integer_list.TestIntegerList.test_get_index_expect_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_car_manager.TestCarManager.test_drive_car_with_valid_fuel" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/test_list_ex_3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/car_manager_ex4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_integer_list.TestIntegerList.test_get_index_expect_success&quot;" />
+      <option name="_new_target" value="&quot;test_car_manager.TestCarManager.test_drive_car_with_valid_fuel&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_integer_list.TestIntegerList.test_insert_element_with_invalid_index_raises_index_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_car_manager.TestCarManager.test_no_make_raises_exception" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/test_list_ex_3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/car_manager_ex4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_integer_list.TestIntegerList.test_insert_element_with_invalid_index_raises_index_error&quot;" />
+      <option name="_new_target" value="&quot;test_car_manager.TestCarManager.test_no_make_raises_exception&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_integer_list.TestIntegerList.test_insert_float_element_raises_value_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_car_manager.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/test_list_ex_3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/car_manager_ex4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_integer_list.TestIntegerList.test_insert_float_element_raises_value_error&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_integer_list.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Python_OOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/test_list_ex_3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testing/test_list_ex_3/test_integer_list.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testing/car_manager_ex4/test_car_manager.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_integer_list.py" />
-        <item itemvalue="Python tests.Python tests for test_integer_list.TestIntegerList.test_get_index_expect_success" />
-        <item itemvalue="Python tests.Python tests for test_integer_list.TestIntegerList.test_get_biggest_expect_success" />
-        <item itemvalue="Python tests.Python tests for test_integer_list.TestIntegerList.test_insert_float_element_raises_value_error" />
-        <item itemvalue="Python tests.Python tests for test_integer_list.TestIntegerList.test_insert_element_with_invalid_index_raises_index_error" />
+        <item itemvalue="Python tests.Python tests for test_car_manager.TestCarManager" />
+        <item itemvalue="Python tests.Python tests for test_car_manager.TestCarManager.test_drive_car_with_valid_fuel" />
+        <item itemvalue="Python tests.Python tests in test_car_manager.py" />
+        <item itemvalue="Python tests.Python tests for test_car_manager.TestCarManager.test_no_make_raises_exception" />
+        <item itemvalue="Python.car_manager" />
       </list>
     </recent_temporary>
   </component>
