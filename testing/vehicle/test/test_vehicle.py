@@ -1,10 +1,8 @@
 from unittest import TestCase, main
-from testing.vehicle.project.vehicle import Vehicle
+from project.vehicle import Vehicle
 
 
 class VehicleTests(TestCase):
-    DEFAULT_FUEL_CONSUMPTION = 1.25
-
     def setUp(self):
         self.vehicle = Vehicle(1.5, 150.5)
 
@@ -14,14 +12,20 @@ class VehicleTests(TestCase):
         self.assertEqual(1.5, self.vehicle.capacity)
         self.assertEqual(1.25, self.vehicle.fuel_consumption)
 
+    def test_attributes_types(self):
+        self.assertTrue(isinstance(self.vehicle.fuel, float))
+        self.assertTrue(isinstance(self.vehicle.capacity, float))
+        self.assertTrue(isinstance(self.vehicle.horse_power, float))
+        self.assertTrue(isinstance(self.vehicle.fuel_consumption, float))
+        self.assertTrue(isinstance(self.vehicle.DEFAULT_FUEL_CONSUMPTION, float))
+
     def test_drive_kilometers_without_enough_fuel_raises_exception(self):
-        self.vehicle.fuel = 10
         with self.assertRaises(Exception) as ex:
             self.vehicle.drive(100)
 
         self.assertEqual("Not enough fuel", str(ex.exception))
 
-    def test_drive_with_enough_fuel_decreases_fuel_capacity(self):
+    def test_drive_successful(self):
         self.vehicle.drive(1)
         expected_fuel_left = 0.25
 
@@ -33,7 +37,7 @@ class VehicleTests(TestCase):
 
         self.assertEqual("Too much fuel", str(ex.exception))
 
-    def test_refuel_with_less_fuel_than_capacity_increases_the_fuel(self):
+    def test_refuel_successful(self):
         self.vehicle.fuel = 0.5
         self.vehicle.refuel(1)
         expected_data = 1.5
