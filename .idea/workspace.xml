@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_1/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/project/equipment/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/equipment/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/project/equipment/base_equipment.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/equipment/base_equipment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/project/equipment/elbow_pad.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/equipment/elbow_pad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/project/equipment/knee_pad.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/equipment/knee_pad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/project/teams/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/teams/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/project/teams/base_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/teams/base_team.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/project/teams/indoor_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/teams/indoor_team.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/project/teams/outdoor_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/teams/outdoor_team.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/project/tournament.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/tournament.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/gym.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/gym.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/static_and_class_methods_exercices/gym/project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,97 +46,13 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\exams\exam_preparation_1\classes" />
+      <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\exams\exam_preparation_1\classes\project" />
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\design_patterns\decorator_pattern" />
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\testing\test_worker_ex1" />
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\decorators_exercises\store_results_ex" />
-      <recent name="C:\Users\Mike\PycharmProjects\Python_OOP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="base_team" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_OOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_preparation_1/project/teams" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exams/exam_preparation_1/project/teams/base_team.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="decorator_pattern (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_OOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/design_patterns/decorator_pattern" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/design_patterns/decorator_pattern/decorator_pattern.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="indoor_team" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_OOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_preparation_1/project/teams" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exams/exam_preparation_1/project/teams/indoor_team.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_OOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_preparation_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Mike\PycharmProjects\Python_OOP\exams\exam_preparation_1\classes\project\main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test.TestTrip.test_booking_status_with_booked_destinations">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,34 +74,83 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tournament" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestTrip" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_preparation_1/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exams/exam_preparation_1/project/tournament.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestTrip&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.TestTrip.test_book_a_trip_with_enough_budget" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestTrip.test_book_a_trip_with_enough_budget&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.TestTrip.test_book_a_trip_with_not_enough_budget" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestTrip.test_book_a_trip_with_not_enough_budget&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.TestTrip.test_booking_status_with_booked_destinations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestTrip.test_booking_status_with_booked_destinations&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.TestTrip.test_booking_status_without_booked_destinations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestTrip.test_booking_status_without_booked_destinations&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.tournament" />
-        <item itemvalue="Python.base_team" />
-        <item itemvalue="Python.indoor_team" />
-        <item itemvalue="Python.decorator_pattern (1)" />
+        <item itemvalue="Python tests.Python tests for test.TestTrip.test_booking_status_with_booked_destinations" />
+        <item itemvalue="Python tests.Python tests for test.TestTrip.test_booking_status_without_booked_destinations" />
+        <item itemvalue="Python tests.Python tests for test.TestTrip" />
+        <item itemvalue="Python tests.Python tests for test.TestTrip.test_book_a_trip_with_not_enough_budget" />
+        <item itemvalue="Python tests.Python tests for test.TestTrip.test_book_a_trip_with_enough_budget" />
       </list>
     </recent_temporary>
   </component>
