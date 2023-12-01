@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/base_loan.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/base_loan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/mortgage_loan.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/mortgage_loan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/student_loan.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/student_loan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/adult.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/adult.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/base_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/base_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/student.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,28 @@
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\decorators_exercises\store_results_ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.student_loan">
+  <component name="RunManager" selected="Python.base_client">
+    <configuration name="base_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/base_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,20 +160,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for project.test.test.TestTrip.test_book_a_trip_with_family_discount" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Python_OOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;project.test.test.TestTrip.test_book_a_trip_with_family_discount&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for project.test.test.TestTrip.test_booking_status_with_bookings" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.base_client" />
         <item itemvalue="Python.student_loan" />
         <item itemvalue="Python tests.Python tests for project.test.test.TestTrip" />
         <item itemvalue="Python tests.Python tests for project.test.test.TestTrip.test_booking_status_with_bookings" />
         <item itemvalue="Python tests.Python tests for project.test.test.TestTrip" />
-        <item itemvalue="Python tests.Python tests for project.test.test.TestTrip.test_book_a_trip_with_family_discount" />
       </list>
     </recent_temporary>
   </component>
