@@ -1,4 +1,7 @@
 from abc import ABC, abstractmethod
+from typing import List
+from math import floor
+from project.equipment.base_equipment import BaseEquipment
 
 
 class BaseTeam(ABC):
@@ -7,8 +10,8 @@ class BaseTeam(ABC):
         self.country = country
         self. advantage = advantage
         self.budget = budget
-        self.wins = 0
-        self.equipment = []
+        self.wins: int = 0
+        self.equipment: List[BaseEquipment] = []
 
     @property
     def name(self):
@@ -16,7 +19,7 @@ class BaseTeam(ABC):
 
     @name.setter
     def name(self, value):
-        if value.strip() == '':
+        if value.strip() == "":
             raise ValueError("Team name cannot be empty!")
         self.__name = value
 
@@ -44,6 +47,14 @@ class BaseTeam(ABC):
     def win(self):
         pass
 
-    @abstractmethod
     def get_statistics(self):
-        pass
+        team_protection = sum(e.protection for e in self.equipment)
+        avg_team_protection = floor(team_protection / len(self.equipment)) if self.equipment else 0
+
+        return (f"Name: {self.name}\n"
+                f"Country: {self.country}\n"
+                f"Advantage: {int(self.advantage)} points\n"
+                f"Budget: {self.budget:.2f}EUR\n"
+                f"Wins: {self.wins}\n"
+                f"Total Equipment Price: {sum(e.price for e in self.equipment):.2f}\n"
+                f"Average Protection: {avg_team_protection}")
