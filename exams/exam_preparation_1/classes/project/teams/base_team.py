@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List
 from math import floor
-from project.equipment.base_equipment import BaseEquipment
+from classes.project.equipment.base_equipment import BaseEquipment
 
 
 class BaseTeam(ABC):

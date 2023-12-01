@@ -1,5 +1,5 @@
 from project.customer import Customer
-from project.equipment import Equipment
+from classes.project.equipment import Equipment
 from project.exercise_plan import ExercisePlan
 from project.gym import Gym
 from project.subscription import Subscription

@@ -1,6 +1,6 @@
 from project.customer import Customer
 from project.trainer import Trainer
-from project.equipment import Equipment
+from classes.project.equipment import Equipment
 from project.exercise_plan import ExercisePlan
 from project.subscription import Subscription
 
