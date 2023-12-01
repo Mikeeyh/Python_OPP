@@ -3,84 +3,64 @@ from unittest import TestCase, main
 
 
 class TestTrip(TestCase):
-    DESTINATION_PRICES_PER_PERSON = {'New Zealand': 7500, 'Australia': 5700, 'Brazil': 6200, 'Bulgaria': 500}
-
     def setUp(self):
-        self.trip = Trip(15000, 3, True)
+        self.t1f = Trip(10000, 1, False)
+        self.t2f = Trip(10000, 2, False)
+        self.t2t = Trip(10000, 2, True)
 
     def test_correct_init(self):
-        self.assertEqual(15000, self.trip.budget)
-        self.assertEqual(3, self.trip.travelers)
-        self.assertTrue(self.trip.is_family)
-        self.assertEqual({}, self.trip.booked_destinations_paid_amounts)
+        self.assertEqual(10000, self.t2t.budget)
+        self.assertEqual(2, self.t2t.travelers)
+        self.assertFalse(self.t2f.is_family)
+        self.assertEqual({}, self.t2t.booked_destinations_paid_amounts)
 
-    def test_travelers_with_invalid_value_raises_value_error(self):
+    def test_setter_travelers(self):
         with self.assertRaises(ValueError) as ve:
-            self.trip = Trip(15000, 0, True)
-            self.trip = Trip(15000, -2, True)
+            self.t1f.travelers = 0
         self.assertEqual('At least one traveler is required!', str(ve.exception))
 
     def test_is_family_expected_correct_boolean(self):
-        if self.trip.is_family and self.trip.travelers < 2:
-            self.trip.is_family = False
-            self.assertFalse(self.trip.is_family)
-        else:
-            self.assertTrue(self.trip.is_family)
+        self.assertTrue(self.t2t.is_family)
+
+        self.t1f.is_family = True
+        self.assertFalse(self.t1f.is_family)
 
     def test_book_a_trip_with_not_existing_destination(self):
-        destination = "France"
-        result = 'This destination is not in our offers, please choose a new one!'
-        self.trip.book_a_trip(destination)
-        self.assertEqual(result, self.trip.book_a_trip(destination))
-
-    def test_book_a_trip_with_existing_destination_decrease_price_if_is_family(self):
-        self.trip = Trip(20000, 3, True)
-
-        destination = "Brazil"
-        total_price = (6200 * 3) * 0.9
-        result = 20000 - total_price
-        self.trip.book_a_trip(destination)
-
-        self.assertEqual(result, self.trip.budget)
-
-    def test_book_a_trip_with_existing_destination_if_not_family(self):
-        self.trip = Trip(20000, 2, False)
-        destination = "Brazil"
-        total_price = (6200 * 2)
-        result = 20000 - total_price
-        self.trip.book_a_trip(destination)
-
-        self.assertEqual(result, self.trip.budget)
+        self.assertEqual('This destination is not in our offers, please choose a new one!',
+                         self.t2t.book_a_trip("not existing destination"))
 
     def test_book_a_trip_with_not_enough_budget(self):
-        self.trip = Trip(20000, 3, True)
-        result = 'Your budget is not enough!'
+        self.assertEqual('Your budget is not enough!', self.t2t.book_a_trip('New Zealand'))
 
-        self.assertEqual(result, self.trip.book_a_trip('New Zealand'))
+    def test_book_a_trip_no_family_discount(self):
+        self.assertEqual('Successfully booked destination Bulgaria! Your budget left is 9000.00',
+                         self.t2f.book_a_trip('Bulgaria'))
+        self.assertEqual(9000, self.t2f.budget)
+        self.assertEqual({"Bulgaria": 1000}, self.t2f.booked_destinations_paid_amounts)
 
-    def test_book_a_trip_with_enough_budget(self):
-        self.trip = Trip(20000, 2, False)
-        result = f'Successfully booked destination Brazil! Your budget left is 7600.00'
+    def test_book_a_trip_with_family_discount(self):
+        self.assertEqual('Successfully booked destination Bulgaria! Your budget left is 9100.00',
+                         self.t2t.book_a_trip('Bulgaria'))
+        self.assertEqual(9100, self.t2t.budget)
+        self.assertEqual({"Bulgaria": 900}, self.t2t.booked_destinations_paid_amounts)
 
-        self.assertEqual(result, self.trip.book_a_trip("Brazil"))
+    def test_booking_status_no_bookings(self):
+        self.assertEqual('No bookings yet. Budget: 10000.00', self.t2t.booking_status())
 
-    def test_booking_status_without_booked_destinations(self):
-        result = 'No bookings yet. Budget: 15000.00'
-        self.assertEqual(result, self.trip.booking_status())
+    def test_booking_status_with_bookings(self):
+        self.t2f.budget = 100000
+        self.t2f.book_a_trip("Brazil")
+        self.t2f.book_a_trip("New Zealand")
 
-    def test_booking_status_with_booked_destinations(self):
-        self.trip = Trip(1000, 2, False)
-        self.trip.booked_destinations_paid_amounts = {'B': 300.00, 'A': 200.00}
-
-        expected_result = """Booked Destination: A
-Paid Amount: 200.00
-Booked Destination: B
-Paid Amount: 300.00
+        result = self.t2f.booking_status()
+        expected_result = """Booked Destination: Brazil
+Paid Amount: 12400.00
+Booked Destination: New Zealand
+Paid Amount: 15000.00
 Number of Travelers: 2
-Budget Left: 1000.00"""
+Budget Left: 72600.00"""
 
-        actual_result = self.trip.booking_status()
-        self.assertEqual(actual_result, expected_result)
+        self.assertEqual(expected_result, result)
 
 
 if __name__ == '__main__':

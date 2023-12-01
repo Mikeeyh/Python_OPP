@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\decorators_exercises\store_results_ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test.TestTrip.test_booking_status_with_booked_destinations">
+  <component name="RunManager" selected="Python tests.Python tests for project.test.test.TestTrip">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestTrip" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for project.test.test.TestTrip" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +84,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestTrip&quot;" />
+      <option name="_new_target" value="&quot;project.test.test.TestTrip&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestTrip.test_book_a_trip_with_enough_budget" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for project.test.test.TestTrip" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +98,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestTrip.test_book_a_trip_with_enough_budget&quot;" />
+      <option name="_new_target" value="&quot;project.test.test.TestTrip&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestTrip.test_book_a_trip_with_not_enough_budget" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for project.test.test.TestTrip" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,11 +112,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestTrip.test_book_a_trip_with_not_enough_budget&quot;" />
+      <option name="_new_target" value="&quot;project.test.test.TestTrip&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestTrip.test_booking_status_with_booked_destinations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for project.test.test.TestTrip.test_book_a_trip_with_family_discount" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +126,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestTrip.test_booking_status_with_booked_destinations&quot;" />
+      <option name="_new_target" value="&quot;project.test.test.TestTrip.test_book_a_trip_with_family_discount&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestTrip.test_booking_status_without_booked_destinations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for project.test.test.TestTrip.test_booking_status_with_bookings" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,17 +140,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestTrip.test_booking_status_without_booked_destinations&quot;" />
+      <option name="_new_target" value="&quot;project.test.test.TestTrip.test_booking_status_with_bookings&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test2.TestTrip.test_book_a_trip_with_discount_price_if_is_family" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test2.TestTrip.test_book_a_trip_with_discount_price_if_is_family&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test.TestTrip.test_booking_status_with_booked_destinations" />
-        <item itemvalue="Python tests.Python tests for test.TestTrip.test_booking_status_without_booked_destinations" />
-        <item itemvalue="Python tests.Python tests for test.TestTrip" />
-        <item itemvalue="Python tests.Python tests for test.TestTrip.test_book_a_trip_with_not_enough_budget" />
-        <item itemvalue="Python tests.Python tests for test.TestTrip.test_book_a_trip_with_enough_budget" />
+        <item itemvalue="Python tests.Python tests for project.test.test.TestTrip" />
+        <item itemvalue="Python tests.Python tests for project.test.test.TestTrip.test_booking_status_with_bookings" />
+        <item itemvalue="Python tests.Python tests for project.test.test.TestTrip" />
+        <item itemvalue="Python tests.Python tests for project.test.test.TestTrip.test_book_a_trip_with_family_discount" />
+        <item itemvalue="Python tests.Python tests for project.test.test.TestTrip" />
       </list>
     </recent_temporary>
   </component>
