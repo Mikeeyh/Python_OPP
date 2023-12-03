@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/bank_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/bank_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/adult.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/adult.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/base_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/base_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/mortgage_loan.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/mortgage_loan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/student_loan.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/student_loan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/unit_testing/project/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_2/unit_testing/project/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
