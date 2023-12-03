@@ -18,9 +18,9 @@ class BaseClient(ABC):
 
     @name.setter
     def name(self, value):
-        if value.strip() == '':
+        if value.strip() == "":
             raise ValueError("Client name cannot be empty!")
-        self.__name = value.strip()
+        self.__name = value
 
     @property
     def client_id(self):
@@ -28,7 +28,7 @@ class BaseClient(ABC):
 
     @client_id.setter
     def client_id(self, value):
-        if len(value) == 10:
+        if len(value) != 10:
             raise ValueError("Client ID should be 10 symbols long!")
         self.__client_id = value
 
@@ -38,7 +38,7 @@ class BaseClient(ABC):
 
     @income.setter
     def income(self, value):
-        if value.strip <= 0:
+        if value <= 0.0:
             raise ValueError("Income must be greater than zero!")
         self.__income = value
 

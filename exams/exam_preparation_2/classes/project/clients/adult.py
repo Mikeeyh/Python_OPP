@@ -6,4 +6,4 @@ class Adult(BaseClient):
         super().__init__(name, client_id, income, interest=4.0)
 
     def increase_clients_interest(self):
-        self.interest *= 2.0 / 100
+        self.interest += 2.0
