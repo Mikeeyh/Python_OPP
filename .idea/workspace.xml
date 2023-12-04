@@ -52,7 +52,7 @@
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\testing\test_worker_ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.user">
+  <component name="RunManager" selected="Python tests.Python tests for test.TestSRobot.test_update_with_lower_version_and_enough_capacity">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,48 +74,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="managing_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_OOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_18_04_2023/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exams/exam_18_04_2023/project/managing_app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_OOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_18_04_2023/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exams/exam_18_04_2023/project/user.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for exams.exam_05_08_2023.unittests.project.test.test.TestTennisPlayer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,45 +102,73 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for exams.exam_08_04_2023.unittests.project.test.test.TestTennisPlayer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestSRobot.test_gt_if_equal_prices" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_08_04_2023/unittests/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_18_04_2023/unittests/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;exams.exam_08_04_2023.unittests.project.test.test.TestTennisPlayer&quot;" />
+      <option name="_new_target" value="&quot;test.TestSRobot.test_gt_if_equal_prices&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for exams.exam_08_04_2023.unittests.project.test.test.TestTennisPlayer.test_correct_init" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestSRobot.test_gt_if_first_robot_price_is_lower" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_08_04_2023/unittests/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_18_04_2023/unittests/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;exams.exam_08_04_2023.unittests.project.test.test.TestTennisPlayer.test_correct_init&quot;" />
+      <option name="_new_target" value="&quot;test.TestSRobot.test_gt_if_first_robot_price_is_lower&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for exams.exam_08_04_2023.unittests.project.test.test.TestTennisPlayer.test_correct_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestSRobot.test_update_with_existing_version_and_enough_capacity" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_08_04_2023/unittests/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_18_04_2023/unittests/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;exams.exam_08_04_2023.unittests.project.test.test.TestTennisPlayer.test_correct_name&quot;" />
+      <option name="_new_target" value="&quot;test.TestSRobot.test_update_with_existing_version_and_enough_capacity&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.TestSRobot.test_update_with_lower_version_and_enough_capacity" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_18_04_2023/unittests/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestSRobot.test_update_with_lower_version_and_enough_capacity&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.TestSRobot.test_update_with_not_existing_version_and_not_enough_capacity" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_18_04_2023/unittests/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestSRobot.test_update_with_not_existing_version_and_not_enough_capacity&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -202,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.user" />
-        <item itemvalue="Python.managing_app" />
-        <item itemvalue="Python tests.Python tests for exams.exam_05_08_2023.unittests.project.test.test.TestTennisPlayer" />
-        <item itemvalue="Python tests.Python tests for exams.exam_08_04_2023.unittests.project.test.test.TestTennisPlayer" />
-        <item itemvalue="Python tests.Python tests for exams.exam_05_08_2023.unittests.project.test.test.TestTennisPlayer" />
+        <item itemvalue="Python tests.Python tests for test.TestSRobot.test_update_with_lower_version_and_enough_capacity" />
+        <item itemvalue="Python tests.Python tests for test.TestSRobot.test_update_with_existing_version_and_enough_capacity" />
+        <item itemvalue="Python tests.Python tests for test.TestSRobot.test_update_with_not_existing_version_and_not_enough_capacity" />
+        <item itemvalue="Python tests.Python tests for test.TestSRobot.test_gt_if_first_robot_price_is_lower" />
+        <item itemvalue="Python tests.Python tests for test.TestSRobot.test_gt_if_equal_prices" />
       </list>
     </recent_temporary>
   </component>
