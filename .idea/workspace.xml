@@ -6,48 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/project/robots/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/project/robots/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/project/robots/base_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/project/robots/base_robot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/project/robots/female_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/project/robots/female_robot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/project/robots/male_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/project/robots/male_robot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/project/robots_managing_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/project/robots_managing_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/project/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/project/services/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/project/services/base_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/project/services/base_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/project/services/main_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/project/services/main_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/project/services/secondary_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/project/services/secondary_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/unittests/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/unittests/project/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/unittests/project/tennis_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/unittests/project/tennis_player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/unittests/project/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/unittests/project/test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_08_2023/unittests/project/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_08_04_2023/unittests/project/test/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/classes/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/classes/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/equipment/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/classes/project/clients/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/equipment/base_equipment.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/classes/project/equipment/base_equipment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/equipment/elbow_pad.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/classes/project/equipment/elbow_pad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/equipment/knee_pad.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/classes/project/equipment/knee_pad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/teams/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/classes/project/loans/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/teams/base_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/classes/project/teams/base_team.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/teams/indoor_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/classes/project/teams/indoor_team.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/teams/outdoor_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/classes/project/teams/outdoor_team.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/classes/project/tournament.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/classes/project/tournament.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/unit_testing/project/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/unit_testing/project/test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/unit_teting/project/test/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_1/unit_teting/project/trip.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/unit_teting/project/trip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/bank_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/classes/project/bank_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/classes/project/equipment/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/adult.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/classes/project/clients/adult.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/base_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/classes/project/clients/base_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/clients/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/classes/project/clients/student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/classes/project/teams/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/base_loan.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/classes/project/loans/base_loan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/mortgage_loan.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/classes/project/loans/mortgage_loan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/loans/student_loan.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/classes/project/loans/student_loan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/classes/project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/classes/project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/unit_testing/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/unit_teting/project/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/unit_testing/project/second_hand_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/unit_testing/project/second_hand_car.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/unit_testing/project/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_15_08_2023/unit_teting/project/test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exams/exam_preparation_2/unit_testing/project/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_preparation_05_08_2023/unit_testing/project/test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +52,7 @@
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\testing\test_worker_ex1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.user">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,6 +66,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="managing_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_18_04_2023/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exams/exam_18_04_2023/project/managing_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_18_04_2023/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exams/exam_18_04_2023/project/user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.user" />
+        <item itemvalue="Python.managing_app" />
         <item itemvalue="Python tests.Python tests for exams.exam_05_08_2023.unittests.project.test.test.TestTennisPlayer" />
         <item itemvalue="Python tests.Python tests for exams.exam_08_04_2023.unittests.project.test.test.TestTennisPlayer" />
         <item itemvalue="Python tests.Python tests for exams.exam_05_08_2023.unittests.project.test.test.TestTennisPlayer" />
-        <item itemvalue="Python tests.Python tests for exams.exam_08_04_2023.unittests.project.test.test.TestTennisPlayer.test_correct_init" />
-        <item itemvalue="Python tests.Python tests for exams.exam_08_04_2023.unittests.project.test.test.TestTennisPlayer.test_correct_name" />
       </list>
     </recent_temporary>
   </component>
