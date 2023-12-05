@@ -7,6 +7,7 @@
     <list default="true" id="ec8ec90c-dbcc-46a7-86cc-6ce3e72f1bee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Python_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_OOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exams/exam_19_12_2023/project/concert_tracker_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/exams/exam_19_12_2023/project/concert_tracker_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,28 @@
       <recent name="C:\Users\Mike\PycharmProjects\Python_OOP\testing\test_worker_ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_truck_driver.TestTruckDriver.test_check_for_activities">
+  <component name="RunManager" selected="Python.concert_tracker_app">
+    <configuration name="concert_tracker_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_OOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_19_12_2023/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exams/exam_19_12_2023/project/concert_tracker_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,20 +187,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_truck_driver.TestTruckDriver.test_drive_best_cargo_offer_no_location_raises_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Python_OOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exams/exam_19_12_2023/unittests/project/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_truck_driver.TestTruckDriver.test_drive_best_cargo_offer_no_location_raises_error&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_truck_driver.TestTruckDriver.test_drive_best_cargo_offer_valid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python_OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.concert_tracker_app" />
         <item itemvalue="Python tests.Python tests for test_truck_driver.TestTruckDriver.test_check_for_activities" />
         <item itemvalue="Python tests.Python tests for test_truck_driver.TestTruckDriver" />
         <item itemvalue="Python.test_truck_driver" />
         <item itemvalue="Python tests.Python tests for test_truck_driver.TestTruckDriver.test_drive_best_cargo_offer_valid" />
-        <item itemvalue="Python tests.Python tests for test_truck_driver.TestTruckDriver.test_drive_best_cargo_offer_no_location_raises_error" />
       </list>
     </recent_temporary>
   </component>
